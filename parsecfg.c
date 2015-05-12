@@ -376,7 +376,7 @@ cfg_load(FILE *fp) {
         }
     }
 
-    fclose(fp);
+    //fclose(fp);
 
     return head;
 }
